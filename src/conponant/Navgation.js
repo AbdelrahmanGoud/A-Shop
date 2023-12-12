@@ -42,7 +42,7 @@ function Navigation() {
 
   return (
     <>
-      {[true,].map((expand) => (
+      {[false,].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary px-5 larg-nav">
           <Container fluid>
             <Link as={Link} to="/" className="navlogo">A-Shop</Link>
