@@ -1,0 +1,331 @@
+.carousel-caption
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column !important;
+  position: absolute;
+  height: 100%;
+  text-align: left !important;
+}
+.carousel-caption p
+{
+   font-size: 1.7rem;
+}
+.carousel-caption h2
+{
+   font-size: 3.5rem;
+}
+.carousel-caption button
+{
+   font-weight: bold;
+}
+.home-caru
+{
+   height: 100vh;
+   direction: rtl !important;
+   background-color: rgb(200, 254, 236);
+}
+.home-caru img
+{
+   height: 100vh;
+}
+
+
+.carus-but-1
+{
+   width: 50px !important;
+   height: 50px !important;
+   margin-top: 40vh;
+   background-color: #333 !important;
+   border-radius: 50%;
+   margin-left: 10px;
+
+}
+.carus-but-2
+{
+   width: 50px !important;
+   height: 50px !important;
+   margin-top: 40vh;
+   background-color: #333 !important;
+   border-radius: 50%;
+   margin-right: 10px;
+
+}
+/*//////////////////////////////////////////////////////////*/
+.limit-card
+{
+  
+  text-align: center;
+  font-weight: bold;
+}
+.limit-card:hover img
+{
+  transform: scale(1.1,1.1);
+}
+.limit-card img
+{
+   height: 30vh !important;
+  margin: auto;
+}
+.cont-prod
+{
+   display: flex;
+   justify-content: space-between;
+}
+.rat-ic
+{
+   color: rgb(255, 217, 0); 
+}
+.price
+{
+   border: 2px solid green;
+   border-radius: 8px;
+   padding:0 10px;
+}
+.but-wch:hover .hrt 
+{
+ color: red;
+}
+.serv-item
+{
+   text-align: center;
+}
+.pc-1
+{
+   color: rgb(255, 155, 155);;
+   font-weight: bold;
+}
+.pc-2
+{
+   color: rgb(119, 119, 255);
+   font-weight: bold;
+}
+.pc-3
+{
+   color: rgb(180, 134, 78);
+   font-weight: bold;
+}
+.p-srv
+{
+   color: #777;
+}
+
+.fon-bag
+{
+   font-size: 3rem;
+   color: #333;
+}
+.p-d-c
+{
+   color: #777;
+}
+.but
+{
+   font-weight: bold !important;
+   border-radius:30px;
+}
+.cast
+{
+   overflow: hidden !important;
+}
+.divid-tow
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.filter
+{
+   background-color: #f1f1f1;
+}
+.bt
+{
+   border: none !important;
+   outline: none !important;
+   padding: 10px;
+   border-radius: 24px !important;
+   background-color: #fff;
+   color: #333;
+   font-weight: bold;
+}
+.bt:hover,.actv
+{
+   background-color: #333;
+   color: white;
+}
+.bg
+{
+   font-size: 2.5rem;
+}
+.butns
+{
+   background-color: white;
+   border-radius: 24px !important;
+}
+.it-two
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.it-two img
+{
+   border-radius: 50%;
+}
+.item-sec-5
+{
+   position: relative;
+   font-weight: bold;
+   border-radius: 12px !important;
+}
+.item-sec-5:hover
+{
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.cr-img
+{
+   width: 50%;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+.scr-spc
+{
+   width: 40% !important;
+}
+.p-sec-5
+{
+   color: #777;
+}
+.crd-but
+{
+   font-weight: bold !important;
+}
+.crd-but:hover
+{
+   color: rgb(0, 122, 156) !important;
+}
+.butns:hover
+{
+   box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+.h-sec-6
+{
+   font-size: 3rem;
+}
+.spc-conta
+{
+   background-color: #f1f1f1;
+   border-radius: 15px;
+}
+.p-sc-6
+{
+   font-weight: bold;
+   color: #777;
+}
+.list-ul li
+{
+   list-style-type: none !important;
+   line-height: 2rem;
+   font-weight: bold;
+   color: #555454;
+   margin-bottom: 20px;
+}
+.list-ul span
+{
+   margin-right: 10px;
+  padding:5px 15px;
+  border-radius: 12px;
+}
+.sp1
+{
+   background-color: rgb(255, 235, 210);
+   color: rgb(86, 43, 127);
+}
+.sp2
+{
+   background-color: rgb(163, 203, 255);
+   color: rgb(40, 40, 116);
+}
+.sp3
+{
+   background-color: rgb(245, 184, 184);
+   color: rgb(138, 42, 42);
+}
+
+.inp-sec-6
+{
+   border-radius: 24px !important;
+}
+.but-sc-6-in
+{
+   border-radius: 50%;
+}
+.opin i
+{
+   color: rgb(202, 173, 11);
+}
+.opinoin
+{
+   background-color: #f1f1f1;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column !important;
+}
+.title-opin
+{
+   font-family: 'Dancing Script', cursive;
+}
+.navlogo
+{
+   text-decoration: none !important;
+   color: #333 !important;
+   font-size: 1.6rem;
+   font-family: 'Dancing Script', cursive;
+}
+.other-link
+{
+   font-family: 'Dancing Script', cursive;
+   font-size: 1.6rem;
+}
+.cart-prod
+{
+   width: 150px !important;
+   height: 150px !important;
+   background-color: aqua;
+}
+.table
+{
+   table-layout: fixed;
+}
+.but-cart
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+.arrowup
+{
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   z-index: 9999999;    
+     position: fixed;  
+     animation-name: arrowan;
+     animation-duration: 0.5s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate; 
+     cursor: pointer;
+}
+@keyframes arrowan
+{
+   from{bottom: 15px;}
+   to{bottom: 20px;}
+}
+.arrowup i
+{
+   font-size: 40px;
+}

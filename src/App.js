@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter,Routes,Route,} from "react-router-dom";
+import Product from './conponant/Product';
+import './conponantcss/Homestyle.css';
+import Home from './conponant/Home';
+import Navgation from './conponant/Navgation'
+import Limit from './conponant/Limit';
+import Cart from './conponant/Cart';
+import Foot from './conponant/Foot';
+import Arrowup from './conponant/Arrowup';
 
-function App() {
+function App() 
+{
+ 
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+     <Arrowup/>
+    <BrowserRouter>
+    <Navgation/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+    <Route path='Product' element={<Product/>}/> 
+    <Route path='Limit' element={<Limit/>}/>
+    <Route path='/Cart' element={<Cart/>}/>
+    </Routes>
+    <Foot/>
+    </BrowserRouter>  
     </div>
   );
 }
